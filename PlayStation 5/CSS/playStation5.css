@@ -1,0 +1,65 @@
+*{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+}
+
+/*Estilização do cabeçalho "header" e rodapé "footer".*/
+header, footer{
+    background-color: #1B0FDF;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 24px;
+    padding: 10px 0;
+    display: flex;
+}
+
+/*Estilização do "main".*/
+
+
+/*Ajustando as imagens.*/
+
+/*Estilização das serções.*/
+section{
+    width: 100%;
+    padding: 0 25px;
+    margin: 0 0 20px 0;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    margin: 20px 0;
+    font-size: 32px;
+}
+h2{
+    margin: 0 0 15px 0;
+}
+section p{
+    margin: 0 0 20px 0;
+}
+
+/*Aqui vamos usar a propriedade ":hover" no link, quando for acessada vai mudar de cor para verde.*/
+a{
+    color: #1B0FDF;
+}
+a:visited{
+    color: #00894A;
+}
+
+ul{
+    margin: 0 0 20px 20px;
+}
+
+/*Ajustando as imagens com a propriedade ":hover" nas bordas, quando o mouse passa em cima muda de cor para azul.*/
+.jogos img:hover{
+    border: 3px solid #1B0FDF;
+}
+
+/*Ajustando o tamanho das imagens e o display.*/
+.jogos img{
+    box-sizing: border-box;
+    width: calc((100% - 9px) / 3);
+}
